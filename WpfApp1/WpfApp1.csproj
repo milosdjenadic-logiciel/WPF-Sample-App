@@ -1,0 +1,71 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>WinExe</OutputType>
+        <TargetFramework>net8.0-windows</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UseWPF>true</UseWPF>
+    </PropertyGroup>
+	<ItemGroup>
+		<PackageReference Include="DynamicData" Version="8.3.27" />
+		<PackageReference Include="NEST" Version="7.13.2" />
+		<PackageReference Include="NLog" Version="5.2.4" />
+		<PackageReference Include="NLog.Targets.ElasticSearch" Version="7.7.0" />
+		<PackageReference Include="cef.redist.x64" Version="103.0.9" />
+		<PackageReference Include="CefSharp.Common.NETCore" Version="103.0.90" />
+		<PackageReference Include="CefSharp.Wpf.NETCore" Version="103.0.90" />
+		<PackageReference Include="chromiumembeddedframework.runtime.win-x64" Version="103.0.9" />
+		<PackageReference Include="DevExpress.Charts.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Data" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Data.Desktop" Version="22.1.6" />
+		<PackageReference Include="DevExpress.DataAccess" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Mvvm" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Mvvm.CodeGenerators" Version="22.1.1" />
+		<!--<PackageReference Include="DevExpress.Mvvm.DataModel" Version="21.2.6"/>
+	<PackageReference Include="DevExpress.Mvvm.ViewModel" Version="21.2.6"/>-->
+		<PackageReference Include="DevExpress.Office.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Pdf.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.PivotGrid.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Printing.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.RichEdit.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.RichEdit.Export" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Sparkline.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Accordion" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Charts" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Controls" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Core.Extensions" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Docking" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.DocumentViewer.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Grid" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Grid.Core" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.LayoutControl" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.NavBar" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Printing" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Wpf.Ribbon" Version="22.1.6" />
+		<!--<PackageReference Include="DevExpress.Xpf.Themes.VS2017DarkTheme.v21.2"/>-->
+		<PackageReference Include="DevExpress.Xpo" Version="22.1.6" />
+		<PackageReference Include="DevExpress.Reporting.Core" Version="22.1.6" />
+		<Reference Include="DevExpress.Xpf.Themes.VS2017DarkTheme.v22.1">
+			<HintPath>..\Components\DevExpress.Xpf.Themes.VS2017DarkTheme.v22.1.dll</HintPath>
+		</Reference>
+		<Reference Include="DevExpress.Xpf.Themes.MacTheme.v22.1">
+			<HintPath>..\Components\DevExpress.Xpf.Themes.MacTheme.v22.1.dll</HintPath>
+		</Reference>
+		<Reference Include="Sticky.Common">
+		  <HintPath>..\Components\Sticky.Common.dll</HintPath>
+		  <Private>True</Private>
+		</Reference>
+		<Reference Include="StickyWindows, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<SpecificVersion>False</SpecificVersion>
+			<HintPath>..\Components\StickyWindows.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+		<Reference Include="StickyWindows.WPF, Version=0.3.0.0, Culture=neutral, processorArchitecture=MSIL">
+			<SpecificVersion>False</SpecificVersion>
+			<HintPath>..\Components\StickyWindows.WPF.dll</HintPath>
+			<Private>True</Private>
+		</Reference>
+	</ItemGroup>
+</Project>
